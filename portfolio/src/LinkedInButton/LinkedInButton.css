@@ -1,4 +1,5 @@
-.link {
+.links {
     height: 5rem;
     padding-left: 2rem;
+    filter: invert(80%);
 }
