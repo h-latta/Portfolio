@@ -1,5 +1,6 @@
 import './App.css';
 import GitHubButton from './GitHubButton/GitHubButton';
+import LinkedInButton from './LinkedInButton/LinkedInButton'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <h1>Welcome to my portfolio.</h1>
     </div>
     <GitHubButton />
+    <LinkedInButton />
     </body>
   );
 }
