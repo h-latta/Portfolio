@@ -7,13 +7,13 @@
 }
 
 .heading-top {
-  padding-top: 5rem;
+  padding-top: 3rem;
   color: mintcream;
   text-shadow: 0.1rem 0.1rem 0.1rem black;
 }
 
 .heading-bottom {
-  padding-bottom: 5rem;
+  padding-bottom: 3rem;
   color: mintcream;
   text-shadow: 0.1rem 0.1rem 0.1rem black;
 }
@@ -22,4 +22,17 @@
   padding-bottom: 3rem;
   color: mintcream;
   text-shadow: 0.1rem 0.1rem 0.1rem black;
+}
+
+.paragraph {
+  padding-bottom: 4rem;
+  color: mintcream;
+  text-shadow: 0.1rem 0.1rem 0.1rem black;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.icons {
+  flex-direction: row;
+  justify-content: space-evenly;
 }

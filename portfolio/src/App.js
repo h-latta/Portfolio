@@ -12,11 +12,16 @@ function App() {
     <div>
       <h2 className='link-style'>Important Links</h2>
     </div>
-    <div>
+    <div className='icons'>
     <GitHubButton />
+    <LinkedInButton />
     </div>
     <div>
-    <LinkedInButton />
+      <h2 className='heading-top'>About Me</h2>
+      <p className='paragraph'>I am a Full-Stack Developer, recently graduated from devCodeCamp. My strong suit
+        is anything involving Backend Operations, but I also enjoy working on Frontend projects.
+        My goal in life is to go above and beyond to make my work beneficial for all.
+      </p>
     </div>
     </body>
   );
