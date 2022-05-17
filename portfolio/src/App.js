@@ -11,10 +11,12 @@ function App() {
     </div>
     <div>
       <h2 className='link-style'>Important Links</h2>
-    <GitHubButton />
-    <LinkedInButton />
     </div>
     <div>
+    <GitHubButton />
+    </div>
+    <div>
+    <LinkedInButton />
     </div>
     </body>
   );
