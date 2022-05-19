@@ -1,6 +1,7 @@
 import './App.css';
 import GitHubButton from './GitHubButton/GitHubButton';
 import LinkedInButton from './LinkedInButton/LinkedInButton'
+import SelfImage from './Images/IMG_6592.JPG'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
     </div>
     <div>
       <h2 className='heading-top'>About Me</h2>
+      <img className='selfie' src={SelfImage}/>
       <p className='paragraph'>I am a Full-Stack Developer, recently graduated from devCodeCamp. My strong suit
         is anything involving Backend Operations, but I also enjoy working on Frontend projects.
         My goal in life is to go above and beyond to make my work beneficial for all.

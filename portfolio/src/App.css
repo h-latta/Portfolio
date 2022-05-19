@@ -3,7 +3,7 @@
   background-image: url(Images/clement-helardot-95YRwf6CNw8-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
 }
 
 .heading-top {
@@ -25,14 +25,24 @@
 }
 
 .paragraph {
-  padding-bottom: 4rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
   color: mintcream;
   text-shadow: 0.1rem 0.1rem 0.1rem black;
-  margin-left: 5rem;
-  margin-right: 5rem;
 }
 
 .icons {
   flex-direction: row;
   justify-content: space-evenly;
 }
+
+.selfie {
+  border-radius: 50%;
+  border-style: ridge;
+  border-color: black;
+  max-width: 100%;
+  height: auto;
+}
+
