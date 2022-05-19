@@ -28,7 +28,7 @@
   padding-left: 3rem;
   padding-right: 3rem;
   padding-top: 2rem;
-  padding-bottom: 3rem;
+  padding-bottom: 1rem;
   color: mintcream;
   text-shadow: 0.1rem 0.1rem 0.1rem black;
 }
@@ -44,5 +44,13 @@
   border-color: black;
   max-width: 100%;
   height: auto;
+}
+
+.email {
+  padding-bottom: 3rem;
+  color: mintcream;
+  text-shadow: 0.1rem 0.1rem 0.1rem black;
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
